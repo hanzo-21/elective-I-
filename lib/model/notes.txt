@@ -1,0 +1,26 @@
+in model it has
+logic
+data holder
+defines rules 
+we write in class 
+
+eg
+class Product {
+    string ProductImage;
+    string ProductName;
+    double Price;
+    bool isFavourate
+    bool inCart
+}
+
+
+why state management is used : provider  ?
+you requre users id and tokens 
+if you use setstate while building the users profile 
+it will run but the data will not be transferted into the other pages
+so use state management provider
+set state is used to display the things rather than data transfer
+
+how does the provider work?
+plugins:    1st reigster it , 
+            2nd  
